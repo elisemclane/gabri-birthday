@@ -20,7 +20,13 @@
         font-family: 'Press Start 2P', cursive;
         background: linear-gradient(to top, #7ec0ee 0%, #cbe9ff 100%);
     }
-
+.morning-text {
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 3px 3px 0 #000;
+    margin-bottom: 10px;
+    animation: floatIn 1s ease-out;
+}
     /* WORLD CONTAINER */
     .world {
         position: relative;
@@ -205,8 +211,12 @@
         </div>
 
         <!-- Gift Box -->
-       <div id="giftBox" onclick="openGift()" class="cat-wrapper">
+      <div id="giftBox" onclick="openGift()" class="cat-wrapper">
+
+    <div class="morning-text">Good Morning!</div>
+
     <img src="pixel-cat.png" alt="Pixel Cat Holding Present">
+
     <div class="instruction">CLICK THE CAT</div>
 </div>
 
